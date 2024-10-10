@@ -80,7 +80,8 @@
 }
 
 .container .main-container {
-  padding: 20px;
+  padding: 20px; 
+  background: #333333;
 }
 
 .container .main-container .banner {
@@ -148,7 +149,7 @@
 .awan {
   margin: 0px;
   padding: 0px;
-  
+  position: relative;
   top: 190px;
   right: 50px;
   height: 300px;
