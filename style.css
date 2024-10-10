@@ -4,161 +4,153 @@
   src: url(/fonts/yu-gothic/yugothib.ttf);
 }
 .container {
-              position: absolute;
-              top: 0;
-              right: 0;
-              bottom: 0;
-              left: 0;
-              padding: 0;
-              margin: 0;
-              background-image: url(Asset/background.png);
-              background-size: cover;
-              background-repeat: no-repeat;
-              background-position: center center;
-              background-blend-mode: overlay;
-              background-color: rgba(255, 255, 255, 0.77);
-              font-family: "League Spartan", sans-serif;
-            }
+  
+  position: absolute;
+  inset: 0; /* replaces top, right, bottom, left */
+  padding: 0;
+  margin: 0;
+    background: 
+    url(Asset/background.png) 
+    center center / cover no-repeat, 
+    rgba(255, 255, 255, 0.77); /* combines background properties */
+  background-blend-mode: overlay;
+  font-family: "League Spartan", sans-serif;
+
+}
 
 .container .header {
-              display: flex;
-              justify-content: space-between;
-              align-items: center;
-              box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-              padding: 10px;
-            }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
 
 .container .header .profile {
-              display: flex;
-              gap: 10px;
-              padding-left: 40px;
-            }
-.container .header .profile .user {
-              display: flex;
-            }
-.container .header .profile .user img {
-              width: 35x;
-              height: 35px;
+  display: flex;
+  gap: 10px;
+  padding-left: 40px;
 }
 
-.container .header .profile .user {
-              display: flex;
+.container .header .profile .user img {
+  width: 35px;
+  height: 35px;
 }
 .container .header .profile .add-user img {
-              width: 35px;
-              height: 35px;
-}
+  width: 35px;
+  height: 35px;
+  }
 
 .container .navbar nav {
-              display: flex;
-              align-items: center;
+  display: flex;
+  align-items: center;
 }
 .container .navbar nav ul  {
-              display: flex;
-              list-style: none;
-              gap: 20px;
-            }
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
 .container .navbar nav ul a {
-              text-decoration: none;
-              color: rgb(28, 28, 28);
-              font-size: 20px;
-              font-weight: 600;
-            }
+  text-decoration: none;
+  color: rgb(28, 28, 28);
+  font-size: 20px;
+  font-weight: 600;
+}
 
 .container .header .auth-buttons {
-              display: flex;
-              gap: 10px;
-              padding-right: 50px;
-          }
+  display: flex;
+  gap: 10px;
+  padding-right: 50px;
+}
 .container .header .auth-buttons button {
-              padding: 10px 20px;
-              border: none;
-              border-radius: 30px;
-              font-weight: 600;
-              cursor: pointer;
-          }
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+}
 .container .header .auth-buttons .login {
-              background-color: #FFFFFF;
-              color: #333333;
-              border: 1px solid #333333;
-          }
+  background-color: #FFFFFF;
+  color: #333333;
+  border: 1px solid #333333;
+}
 .container .header .auth-buttons .signup {
-              background-color:#3393E1;
-              color: #FFFFFF;
-          }
+  background-color:#3393E1;
+  color: #FFFFFF;
+}
 
 .container .main-container {
-              padding: 20px;
+  padding: 20px;
 }
 
 .container .main-container .banner {
-              height: 430px;
-              display: flex;
-              justify-content: center;
-              align-items: center;
+  height: 430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
               
 
 }
 .container .main-container .banner .banner-1 {
-              margin-top: 200px;
-              width: 68em;
-              height: 30rem;
-              background-color: rgba(52, 151, 232, 0.779);
-              border-radius: 25px;
-              align-items: center;
+  margin-top: 200px;
+  width: 68em;
+  height: 30rem;
+  background-color: rgba(52, 151, 232, 0.779);
+  border-radius: 25px;
+  align-items: center;
 }
 .container .main-container .banner .banner-1 .text  {
-              width: 500px;
-              margin-left: 20px;
-              margin-top: 20px;
+  width: 500px;
+  margin-left: 20px;
+  margin-top: 20px;
               
               
 }
 .container .main-container .banner .banner-1 .text h1 {
-              font-size: 60px;
-              position: relative;
-              top: 75px;
-              left: 30px;
-              margin: 0px;
-              color: aliceblue;
+  font-size: 60px;
+  position: relative;
+  top: 75px;
+  left: 30px;
+  margin: 0px;
+  color: aliceblue;
 }
 .container .main-container .banner .banner-1 .text h2 {
-              font-size: 33px;
-              position: relative;
-              margin: 0px;
-              left: 30px;
-              top: 75px;
-              color: aliceblue;
+  font-size: 33px;
+  position: relative;
+  margin: 0px;
+  left: 30px;
+  top: 75px;
+  color: aliceblue;
               
 }
 .container .main-container .banner .banner-1 .image {
-              display: flex;
-              margin: 0px;
-              padding: 0px;
-              width: 20rem;
-              height: 30rem;
-              background-color: #333333;
-              transition: transform 0.5s;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  width: 20rem;
+  height: 30rem;
+  background-color:   #333333;
+  transition: transform 0.5s;
 }
 .kobo{
-              height: 540px;
-              margin: 0px;
-              padding: 0px;
-              position: relative;
-              left: 510px;
-              bottom: 190px;
+  height: 540px;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  left: 510px;
+  bottom: 190px;
               
 }
 
 .image:hover {
-              transform: scale(1.1); /* add this block */
+  transform: scale(1.1); /* add this block */
 }
 .awan {
-              margin: 0px;
-              padding: 0px;
-              position: relative;
-              top: 190px;
-              right: 50px;
-              height: 300px;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  top: 190px;
+  right: 50px;
+  height: 300px;
               
 }
